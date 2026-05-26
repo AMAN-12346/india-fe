@@ -39,7 +39,7 @@ const UserList = () => {
     
     try {
       // Calling the backend API to clear the database
-      await axios.delete('https://indiamartbackend.onrender.com/user/clearData');
+      await axios.delete('https://indiamartbackend-1.onrender.com/user/clearData');
       setUsers([]);
       alert("Data cleared successfully.");
     } catch (error) {
