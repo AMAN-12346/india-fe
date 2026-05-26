@@ -13,7 +13,7 @@ const UserList = () => {
 
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('https://indiamartbackend.onrender.com/user/getData');
+        const response = await axios.get('https://indiamartbackend-1.onrender.com/user/getData');
         setUsers(response.data);
       } catch (error) {
         setError('Failed to fetch users');
